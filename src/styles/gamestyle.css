@@ -1,0 +1,94 @@
+.tittle{
+    color: white;
+    font-size: 20px;
+    margin-top: 10%;
+    margin-left: 25%;
+}
+
+
+.container {
+    background-color: white;
+    width: 350px;
+    height: 450px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+
+.image {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    align-items: center;
+}
+
+.question {
+    justify-content: center;
+    text-align: center;
+    color: rgb(1, 1, 105);
+    padding: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.buttonNext {
+    width: 60px;
+    height: 50px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-left: 78%;
+}
+
+.answers {
+    border: rgb(75, 75, 154) 1.5px solid;
+    border-radius: 5px;
+    width: 250px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px;
+    margin-left: 43px;
+}
+
+.correctAnswer {
+    background-color: green;
+    color: white;
+}
+
+.incorrectAnswer {
+    background-color: rgb(242, 60, 60);
+    text-decoration: line-through;
+    color: white;
+}
+
+.score{
+    text-align: center;
+    justify-content: center;
+    color: green;
+    font-size: 25px;
+    margin-left: 48%;
+}
+
+.buttonPlayAgain {
+    border:rgb(75, 75, 154) 2px solid;
+    border-radius: 5px;
+    width: 80px;
+    height: 40px;
+    background-color: transparent;
+    margin-left: 40%;
+    margin-top: 25px;
+}
+
+.imageResult {
+    margin-left: 20%;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
