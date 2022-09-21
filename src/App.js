@@ -1,4 +1,4 @@
-import PlayGame from './Componentes/QuoteList';
+import PlayGame from './Componentes/questionsList.js';
 import './App.css';
 
 function App() {

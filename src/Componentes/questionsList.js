@@ -112,8 +112,75 @@ const questions = [
         {
             id: 20,
             response: "Madrid."
-        } 
-    ]}
+        }]
+},
+{
+    urlImage:  "https://images.emojiterra.com/google/android-10/512px/1f1ec-1f1e7.png",
+    question: "¿A qué país pertenece esta bandera?",
+    correctAnswer: 22,
+    answers: [ 
+      {
+          id: 21,
+          response: "Grecia."
+      },
+      {
+          id: 22,
+          response: "Reino Unido."
+      },
+      {
+          id: 23,
+          response:"Austria."
+      },
+      {
+          id: 24,
+          response: "Luxermburgo."
+      }]
+},
+{
+    urlImage:  "https://i.pinimg.com/originals/d9/8f/1a/d98f1aa604b49a3e10a422321da08768.jpg",
+    question: "¿Cuál es la capital de Grecia?",
+    correctAnswer: 25,
+    answers: [ 
+      {
+          id: 25,
+          response: "Atenas."
+      },
+      {
+          id: 26,
+          response: "Esparta."
+      },
+      {
+          id: 27,
+          response:"Parga."
+      },
+      {
+          id: 28,
+          response: "Delfos."
+      }]
+},
+{
+    urlImage:  "https://cdn-0.emojis.wiki/emoji-pics/messenger/switzerland-messenger.png",
+    question: "¿A qué país pertenece esta bandera?",
+    correctAnswer: 32,
+    answers: [ 
+      {
+          id: 29,
+          response: "Colombia."
+      },
+      {
+          id: 30,
+          response: "Perú."
+      },
+      {
+          id: 31,
+          response:"Bélgica."
+      },
+      {
+          id: 32,
+          response: "Suiza."
+      }]
+},
+
 ]
 
 
@@ -135,7 +202,10 @@ const buttonNext = () => {
 
      if (index == questions.length -1) {
         showEnd();
-    }}
+    } else {
+        setSelectedAnswer(null);
+    }
+} 
 
 
 const showEnd = () => {
@@ -157,7 +227,7 @@ const checkTheAnswer = (id) => {
     }} 
 
 
-        console.log(points);
+        
 
 
         const addClass = (id) => {
