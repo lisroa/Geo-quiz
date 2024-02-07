@@ -1,7 +1,7 @@
 <div>
   
   <ul align="center">
-    <summary><h2 style="display: inline-block">Tecnologías utilizadas en el proyecto</h2></summary>
+   <h2 style="display: inline-block">Tecnologías utilizadas en el proyecto</h2>
   </ul>
 </div>
 
