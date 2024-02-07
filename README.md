@@ -1,7 +1,11 @@
+
+<p align="center">Pon a prueba tus conocimientos de geografia con este juego! Responde preguntas aleatorias sobre geografia y descubre tu puntaje final.</p>
+
+
 <div>
   
   <ul align="center">
-   <h2 style="display: inline-block">Tecnologías utilizadas en el proyecto</h2>
+   <h4 style="display: inline-block">Tecnologías utilizadas en el proyecto</h4>
   </ul>
 </div>
 
